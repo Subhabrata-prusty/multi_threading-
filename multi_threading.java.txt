@@ -10,7 +10,7 @@ class subham extends Thread{
 		System.out.println("hello in main ():");
 		
 		subham s1 = new subham();
-		s1.start();
+		s1.start();//thread-o by jvm
 		System.out.println("hello");
 
 		subham s2 = new subham();
